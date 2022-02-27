@@ -10,4 +10,4 @@
  Click the left mouse button to interrupt the screensaver.
 
 ## Building
- Compile it using Lazarus v1.8.2
+ Compile it using Lazarus v1.8.2 or higher.
