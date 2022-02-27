@@ -1,0 +1,33 @@
+object Form1: TForm1
+  Cursor = crNone
+  Left = 246
+  Height = 542
+  Top = 120
+  Width = 1105
+  BorderStyle = bsNone
+  Caption = 'Lines''n''Tris'
+  Color = clCaptionText
+  OnClick = FormClick
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '1.8.2.0'
+  WindowState = wsMaximized
+  object Timer1: TTimer
+    Interval = 10
+    OnTimer = Timer1Timer
+    left = 936
+    top = 440
+  end
+  object Timer2: TTimer
+    Interval = 3500
+    OnTimer = Timer2Timer
+    left = 944
+    top = 320
+  end
+  object Timer3: TTimer
+    Interval = 180000
+    OnTimer = Timer3Timer
+    left = 369
+    top = 181
+  end
+end
